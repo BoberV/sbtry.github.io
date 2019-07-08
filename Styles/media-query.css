@@ -1,0 +1,322 @@
+@media (max-width:600px){
+    .wrapper{
+        width: 100%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        
+    }
+    /* Header */
+    header{
+        justify-content: center;
+    }
+    header .wrapper{
+        justify-content: space-between;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+    nav a{
+        margin-left: 35px;
+        line-height: 1.5;  
+    } 
+
+   .Phone_info a{
+       display: none;
+        
+    }
+   .Phone_info{
+        margin-right: 10px; 
+    }
+   .Call{
+       padding: 12px 10px;
+    }
+
+   /* Hero */
+   .Hero::after{
+       background-position: 48% 0px;
+        width: 100%;
+        background-image: url(../Images/Man.png);
+        height: 686px;
+        position: absolute;
+        content: ' ';
+        opacity: 0.33;
+        z-index: -1;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+    .Hero{
+    text-align: center;
+    }
+
+   .info h1{
+       opacity: 1;
+       font-size: 60px;
+    }
+   .info h2{
+       font-size: 20px;
+        color: #000000;;
+    }
+    /* WhatIDO */
+    .WhatIDO .wrapper{ 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .WhatIDO h1{
+        margin-top: 50px;
+    }
+    .row{
+        margin-top: 50px;   
+        flex-direction: column;
+    }
+    /* Examples */
+    .Examples .wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Examples img{
+        width: 100%;
+    }
+    /* Line */
+    .line .wrapper{
+        text-align: center;
+        display: flex;
+        align-items:center;
+        flex-direction: column;
+    }
+    .line h1{
+        font-size: 25px;
+    }
+    .line h2{
+        font-size: 15px;
+    }
+    /* footer */
+    footer .contacts{
+        display: none;
+    }
+    footer .nav{
+        margin-left: 20px;
+    }
+    footer .social{
+        margin-top: 20px;
+    }
+    footer .social_links a{
+        margin-right: 14px;
+    }
+    /* underline */
+    .underline{
+        font-size: 12pt;
+    }
+    /* PopUp */
+    #popup{
+        width: 100%;
+    }
+}
+
+@media (min-width:768px){
+    .wrapper{
+        width: 100%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    /* Header */
+    header{
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    header .Hero{
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .Phone_info a{
+        font-size: 18px;
+    }
+    .Call{
+        padding: 12px 40px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    nav a{
+        line-height: 1.5;
+        margin-right: 35px;
+    }
+
+    /* Hero */
+    .Hero::after{
+        background-position: 48% 0px;
+        width: 100%;
+        background-image: url(../Images/Man.png);
+        background-repeat: no-repeat;
+        height: 686px;
+        position: absolute;
+        content: ' ';
+        opacity: 0.33;
+        z-index: -1;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+    section .wrapper{
+        text-align: center;
+        justify-content: center;
+    }
+    .info h1{
+        font-size: 60px;
+    }
+    /* WhatIDO */
+     .WhatIDO .wrapper{ 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .WhatIDO h1{
+        margin-top: 50px;
+    }
+    .row{
+        flex-direction: column;
+    }
+    /* Examples */
+    .Examples .wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Examples img{
+        width: 100%;
+    }
+    .Examples h1{
+        padding-top: 90px;
+    }
+    /* Line */
+   
+    .line .wrapper{
+        flex-direction: column;
+    }
+    /* footer */
+    footer .nav{
+        margin-left: 25px;
+    }
+    footer .social{
+        margin-right: 10px;
+        margin-top: 20px;
+    }
+    footer .Call{
+        padding: 12px 27px;
+    }
+    /* underline */
+    .underline{
+        font-size: 16pt;
+    }
+    /* Popup */
+    #popup{
+        max-width: 370px;
+        transform: translateX(55%);
+    }
+}
+@media (min-width:1024px){
+    .wrapper{
+        width: 100%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    /* Header */
+    nav{
+        flex-direction: row;
+    }
+    nav a{
+        margin-right: 35px;
+    }
+    .Phone_info a{
+        font-size: 25pt;
+    }
+   /* Hero */
+   .Hero::after{
+        background-position: 60% 0px;
+        width: 100%;
+        background-image: url(../Images/Man.png);
+        background-repeat: no-repeat;
+        height: 686px;
+        position: absolute;
+        content: ' ';
+        opacity: 0.33;
+        z-index: -1;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+    /* WhatIDO */
+    .WhatIDO .wrapper{ 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .WhatIDO h1{
+        margin-top: 50px;
+    }
+    .row{
+        margin-top: 50px;
+        flex-direction: row;
+    }
+    .row_item{
+        margin-left: 32px;
+        margin-right: 32px;
+    }
+    /* Examples */
+    .Examples h2{
+        font-size: 24px;
+    }
+    /* Popup */
+    #popup{
+        transform: translateX(90%);
+    }
+
+}
+@media (min-width:1170px) {
+    .wrapper{
+        width: 1170px;
+    }
+    .info h1{
+        font-size: 90px;
+    }
+    .info h2{
+        font-size: 25px;
+        color: #8993ad;
+    }
+    .Hero .wrapper{
+        justify-content: flex-start;
+        text-align: left;
+    }
+    .Hero::after{
+        background-position: 85% 0px;
+        opacity: 1;
+    }
+    .row{
+        margin-top: 100px;
+    }
+    .Examples h1{
+        font-size: 54px;
+    }
+
+    /* footer */
+    footer .nav{
+        margin-left: 0;
+    }
+    footer .social{
+        margin-right: 0;
+    }
+    /* Popup */
+    #popup{
+        transform: translateX(110%);
+    }
+}
