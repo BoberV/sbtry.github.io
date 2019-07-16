@@ -318,5 +318,6 @@
     /* Popup */
     #popup{
         transform: translateX(110%);
+        top:30%;
     }
 }
