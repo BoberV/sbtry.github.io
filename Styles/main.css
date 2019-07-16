@@ -260,7 +260,7 @@ footer a{
     z-index: 1;
     position: fixed;
     display: none;
-    top: 30%;
+    top: 0;
     max-height: 380px;
     background-color: #ffffff;
 }
